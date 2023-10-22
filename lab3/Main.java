@@ -89,6 +89,10 @@ public class Main
 	public static void MainMenu(Config config) throws IOException{
 		Scanner scanner = new Scanner(System.in);
 
+		System.out.println("Welcome, " + config.GetUsername() + "!");
+		Printer.Continue();
+		scanner.next();
+
 		Aviary aquarium = new Aviary(Aviary.typesOfAviaries.aquarium);
 		Aviary meshCoveredAviary = new Aviary(Aviary.typesOfAviaries.meshCoveredAviaries);
 		Aviary openAirAviary = new Aviary(Aviary.typesOfAviaries.openAirAviaries);
@@ -212,6 +216,7 @@ public class Main
 		try {
 			config.StartLog("logs.txt");
 			MainMenu(config);
+			config.EndLog("logs.txt");
 		}
 		catch (IOException e) {
 			config.ErrorLog(e.getMessage(), "logs.txt");

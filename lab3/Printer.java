@@ -4,7 +4,7 @@ public class Printer {
 	}
 
   public static void Continue() {
-    System.out.println("Press any key to exit");
+    System.out.println("Press any key to continue");
   }
 
   public static void MainMenu() {

@@ -54,6 +54,16 @@ public class Config {
     }
   }
 
+    public void EndLog(String fileName) {
+    if(this.logs) {
+      try {
+        Main.WriteToFile("The program has been ended\n\n" , fileName);
+      } catch (IOException e) {
+        Printer.LogWriteError();
+      }
+    }
+  }
+
   public void WriteLog(String fileName) {
     if(this.logs) {
       try {
