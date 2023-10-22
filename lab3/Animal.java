@@ -9,6 +9,12 @@ public abstract class Animal {
     this.type = type;
   }
 
+  public Animal () {
+    this.weight = null;
+    this.age = null;
+    this.type = null;
+  }
+
   public abstract void Move(Aviary place);
 
   public Integer GetAge() {
@@ -33,5 +39,10 @@ public abstract class Animal {
 
   public void SetWeght(Integer weight) {
     this.weight = weight;
+  }
+
+  @Override
+  public String toString() {
+      return type.name() + " " + Integer.toString(this.weight) + " " + Integer.toString(this.age);
   }
 }

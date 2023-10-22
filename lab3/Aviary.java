@@ -40,7 +40,7 @@ public class Aviary {
     }
     
     for (int i = 0; i < this.animals.length; i++) {
-      System.out.print("Animal №" + Integer.toString(i + 1) + ": ");
+      System.out.print("№" + Integer.toString(i + 1) + ": ");
 			System.out.println(animals[i]);
 		}
   }

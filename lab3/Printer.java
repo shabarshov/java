@@ -15,8 +15,8 @@ public class Printer {
 		System.out.println("3 - Print animals from open-air aviary");
 		System.out.println("4 - Print animals from aviary with infrared lighting");
 		System.out.println("5 - Add new animal");
-    System.out.println("6 - Read animals from data base");
-    System.out.println("7 - Write animals to data base");
+    System.out.println("6 - Write animals to data base");
+    System.out.println("7 - Read animals from data base");
 		System.out.print("Your command: ... ");
 	}
 
@@ -40,5 +40,9 @@ public class Printer {
   public static void InputError() {
     System.out.println("Input error. Try again");
     Continue();
+  }
+
+  public static void LogWriteError() {
+    System.out.println("Log write error!");
   }
 }
