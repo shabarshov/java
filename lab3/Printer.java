@@ -4,7 +4,7 @@ public class Printer {
 	}
 
   public static void Continue() {
-    System.out.println("Press any key to continue");
+    System.out.println("Enter any something to continue...");
   }
 
   public static void MainMenu() {
@@ -15,9 +15,18 @@ public class Printer {
 		System.out.println("3 - Print animals from open-air aviary");
 		System.out.println("4 - Print animals from aviary with infrared lighting");
 		System.out.println("5 - Add new animal");
-    System.out.println("6 - Write animals to data base");
-    System.out.println("7 - Read animals from data base");
-		System.out.print("Your command: ... ");
+    System.out.println("6 - Open data base menu");
+		System.out.print("Your command -> ");
+	}
+
+  public static void DataBaseMenu() {
+		Clear();
+		System.out.println("0 - Back to main menu");
+    System.out.println("1 - Write animals to data base");
+    System.out.println("2 - Read animals from data base");
+    System.out.println("3 - Delete animal from file");
+    System.out.println("4 - Update animal data");
+		System.out.print("Your command ->  ");
 	}
 
   public static void NewAnimalType() {
@@ -26,15 +35,15 @@ public class Printer {
     System.out.println("2 - Feathered");
     System.out.println("3 - Ungulates");
     System.out.println("4 - Cold blooded");
-    System.out.print("Your command: ... ");
+    System.out.print("Your command -> ");
   }
 
   public static void NewAnimalWeight() {
-    System.out.print("Weight of the animal: ... ");
+    System.out.print("Weight of the animal -> ");
   }
 
   public static void NewAnimalAge() {
-    System.out.print("Age of the animal: ... ");
+    System.out.print("Age of the animal -> ");
   }
 
   public static void InputError() {
@@ -44,5 +53,17 @@ public class Printer {
 
   public static void LogWriteError() {
     System.out.println("Log write error!");
+  }
+
+  public static void EnterId() {
+    System.out.print("Enter id -> ");
+  }
+
+  public static void EnterWeight() {
+    System.out.print("Enter new weight -> ");
+  }
+
+  public static void EnterAge() {
+    System.out.print("Enter new age -> ");
   }
 }

@@ -1,14 +1,2 @@
-aquarium 123 123
-aquarium 15 15
-aquarium 123 123
-aquarium 123 123
-aquarium 15 15
-aquarium 123 123
-aviariesWithInfraredLighting 16 16
-aquarium 123 123
-aquarium 15 15
-aquarium 123 123
-aquarium 123 123
-aquarium 15 15
-aquarium 123 123
-aviariesWithInfraredLighting 16 16
+10567 meshCoveredAviaries 13 13
+7545 openAirAviaries 1 1

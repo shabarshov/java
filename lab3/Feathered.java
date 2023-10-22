@@ -3,6 +3,10 @@ public class Feathered extends Animal {
     super(weight, age, Aviary.typesOfAviaries.meshCoveredAviaries);
   }
 
+  public Feathered(Integer weight, Integer age, Integer id) {
+    super(weight, age, Aviary.typesOfAviaries.meshCoveredAviaries, id);
+  }
+
   public void Move(Aviary aviary) {
     if(aviary.GetType() == Aviary.typesOfAviaries.meshCoveredAviaries) {
       aviary.AddAnimal(this);

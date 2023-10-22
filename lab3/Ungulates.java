@@ -3,6 +3,10 @@ public class Ungulates extends Animal {
     super(weight, age, Aviary.typesOfAviaries.openAirAviaries);
   }
 
+  public Ungulates(Integer weight, Integer age, Integer id) {
+    super(weight, age, Aviary.typesOfAviaries.openAirAviaries, id);
+  }
+
   public void Move(Aviary aviary) {
     if(aviary.GetType() == Aviary.typesOfAviaries.openAirAviaries) {
       aviary.AddAnimal(this);

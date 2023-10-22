@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Aviary {
   public enum typesOfAviaries {
     undefined,
@@ -31,6 +33,44 @@ public class Aviary {
     }
 
     newAnimals[this.animals.length] = animal;
+    this.animals = newAnimals;
+  }
+
+  public void DeleteAnimal(Integer id) {
+    if(this.animals.length == 0) return;
+    Animal[] newAnimals = new Animal[this.animals.length - 1];
+    Boolean flag = false;
+    Integer counter = 0;
+
+    for (int i = 0; i < this.animals.length; i++) {
+      System.out.println(Objects.equals(this.animals[i].GetId(), id));
+      if(!Objects.equals(this.animals[i].GetId(), id)) {
+        newAnimals[counter] = this.animals[i];
+        counter += 1;
+      } else {
+        flag = true;
+      }
+    }
+
+    if(flag) {
+      this.animals = newAnimals;
+      return;
+    }
+  }
+
+  public void UpdateAnimal(Integer id, Integer newWeight, Integer newAge) {
+    Animal[] newAnimals = new Animal[this.animals.length];
+
+    for (int i = 0; i < this.animals.length; i++) {
+      if(Objects.equals(this.animals[i].GetId(), id)) {
+        newAnimals[i] = this.animals[i];
+        newAnimals[i].SetAge(newAge);
+        newAnimals[i].SetWeght(newWeight);
+      } else {
+        newAnimals[i] = this.animals[i];
+      }
+    }
+
     this.animals = newAnimals;
   }
 

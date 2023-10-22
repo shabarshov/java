@@ -1,4 +1,8 @@
 public class Waterfowl extends Animal {
+  public Waterfowl(Integer weight, Integer age, Integer id) {
+    super(weight, age, Aviary.typesOfAviaries.aquarium, id);
+  }
+
   public Waterfowl(Integer weight, Integer age) {
     super(weight, age, Aviary.typesOfAviaries.aquarium);
   }
