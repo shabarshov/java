@@ -1,0 +1,22 @@
+Config file error 02:27:07
+The program was launched by undefined 02:27:07
+	Read error! 02:27:12
+	Incorrect input 02:27:14
+	Incorrect input 02:27:14
+	Incorrect input 02:27:15
+	Incorrect input 02:27:15
+	Incorrect input 02:27:15
+	Incorrect input 02:27:15
+	Incorrect input 02:27:16
+	Incorrect input 02:27:16
+	Incorrect input 02:27:16
+The program has been ended 02:27:18
+
+The program was launched by Alexey 02:34:46
+	null 02:34:48
+	null 02:34:48
+	null 02:34:48
+	null 02:34:49
+	null 02:34:50
+The program has been ended 02:34:50
+
