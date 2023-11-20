@@ -1,0 +1,120 @@
+ArrayList Add
+ 
+Total count: 10 
+Total time: 50886200 
+Medium time: 5088620
+ 
+LinkedList Add
+ 
+Total count: 10 
+Total time: 7982200 
+Medium time: 798220
+ 
+ArrayList Remove
+ 
+Total count: 1.0 
+Total time: 1339700 
+Medium time: 1339700
+ 
+LinkedList Remove
+ 
+Total count: 1.0 
+Total time: 1918200 
+Medium time: 1918200
+ 
+ArrayList Add
+ 
+Total count: 100 
+Total time: 91989800 
+Medium time: 919898
+ 
+LinkedList Add
+ 
+Total count: 100 
+Total time: 46806000 
+Medium time: 468060
+ 
+ArrayList Remove
+ 
+Total count: 10.0 
+Total time: 4704800 
+Medium time: 470480
+ 
+LinkedList Remove
+ 
+Total count: 10.0 
+Total time: 4457300 
+Medium time: 445730
+ 
+ArrayList Add
+ 
+Total count: 1000 
+Total time: 664639800 
+Medium time: 664639
+ 
+LinkedList Add
+ 
+Total count: 1000 
+Total time: 556976500 
+Medium time: 556976
+ 
+ArrayList Remove
+ 
+Total count: 100.0 
+Total time: 54395000 
+Medium time: 543950
+ 
+LinkedList Remove
+ 
+Total count: 100.0 
+Total time: 45474000 
+Medium time: 454740
+ 
+ArrayList Add
+ 
+Total count: 10000 
+Total time: 3508591600 
+Medium time: 350859
+ 
+LinkedList Add
+ 
+Total count: 10000 
+Total time: 3404564800 
+Medium time: 340456
+ 
+ArrayList Remove
+ 
+Total count: 1000.0 
+Total time: 399883500 
+Medium time: 399883
+ 
+LinkedList Remove
+ 
+Total count: 1000.0 
+Total time: 595853900 
+Medium time: 595853
+ 
+ArrayList Add
+ 
+Total count: 100000 
+Total time: 33533104500 
+Medium time: 335331
+ 
+LinkedList Add
+ 
+Total count: 100000 
+Total time: 39743562600 
+Medium time: 397435
+ 
+ArrayList Remove
+ 
+Total count: 10000.0 
+Total time: 9855716300 
+Medium time: 985571
+ 
+LinkedList Remove
+ 
+Total count: 10000.0 
+Total time: 16350444300 
+Medium time: 1635044
+ 
