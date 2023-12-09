@@ -9,9 +9,9 @@ public class Main {
         // Установка параметров для подключения к почтовому серверу
         final String server = "smtp.mail.ru";
         final int port = 465; // Используем порт для SSL
-        final String username = "alexey_shabarshov@mail.ru";
-        final String password = "aj9b84jmzBZEecLq9f1d";
-        final String recipient = "meepoonnewacc2@mail.ru";
+        final String username = "email";
+        final String password = "secret_password";
+        final String recipient = "email";
 
         try (SSLSocket socket = (SSLSocket) SSLSocketFactory.getDefault().createSocket(server, port);
              PrintWriter writer = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), "UTF-8"), true);
